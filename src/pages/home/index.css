@@ -1,0 +1,45 @@
+.container-geral {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 30px;
+    background-color: black;
+
+}
+
+.sub-container h1 {
+    text-align: center;
+    color: crimson;
+    font-size: 3rem;
+}
+
+.cs-container>a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
+    color: #f0f8ff;
+    padding: 35px;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-shadow: 10px 10px 10px red;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+a {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+        color: crimson;
+    text-transform: uppercase;
+    text-decoration: none;
+}

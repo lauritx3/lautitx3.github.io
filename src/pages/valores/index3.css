@@ -1,0 +1,48 @@
+table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: crimson;
+    color: aliceblue;
+    
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px;
+
+}
+
+table td {
+    border-bottom: 1px solid black;
+
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+h1 {
+    color: crimson;
+    text-shadow: 10px 10px 10px red;
+    text-align: center;
+    font-size: 3rem;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: solid;
+    text-transform: none;
+    color: crimson;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color: #dc143c;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-shadow: 10px 10px 10px #ff0000;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.container-geral {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-geral3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+p {
+    color: #f0f8ff;
+    font-size: 400;
+}
+
+.sabor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    margin: 85px;
+    padding: 45px;
+}
+
+.titulo {
+    color: #b22222;
+}
+
+a {
+    color: #dc143c;
+    text-transform: uppercase;
+    text-decoration: none;
+}
